@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+
+<body>
+        <section class="abt-me">
+                <img src="images/umais.jpg" alt="my pic">
+                <h1>Hello there! <br>
+                        This is Umais</h1>
+                <p>I am an html and css developer</p>
+                <button class="contact"><a href="#contact">contact me</a></button>
+                <button class="hire">My CV</button>
+        </section>
+        <section class="skills">
+                <div class="skill">
+                        <h1 class="my-skill">
+                                MY SKILLS:
+
+                        </h1>
+                        <hr class="html-line">
+                        <div class="html">
+                                <h1>HTML:5</h1>
+                                <p>I am skilled in HTML development, with expertise in creating and structuring web
+                                        pages using semantic markup. You have a strong understanding of HTML syntax,
+                                        elements, and attributes, and are able to write clean and well-formatted code.
+                                        I am also familiar with HTML5 features and best practices, and are able to
+                                        create responsive and accessible web pages.</p>
+                        </div>
+                        <hr>
+                        <div class="certificate">
+                                <a href="https://www.testdome.com/certificates/81a75e980dff4f95a07ffa3aef050bf8"
+                                        class="testdome-certificate-stamp gold">
+                                        <span class="testdome-certificate-name">MUHAMMAD UMAIS KH...</span>
+                                        <span class="testdome-certificate-test-name">HTML/CSS</span>
+                                        <span class="testdome-certificate-card-logo">TestDome<br>Certificate</span>
+                                </a>
+                                <script>
+                                        var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css",
+                                                link = document.createElement("link");
+                                        link.href = stylesheet,
+                                                link.type = "text/css",
+                                                link.rel = "stylesheet",
+                                                link.media = "screen,print",
+                                                document.getElementsByTagName("head")[0].appendChild(link);
+                                </script>
+                        </div>
+                        <div class="css">
+                                <h1>CSS:3</h1>
+                                <p>I am a skilled CSS developer with a strong understanding of the fundamentals. I can
+                                        use CSS to create beautiful and responsive web designs. I am proficient in using
+                                        CSS frame- works and libraries, and I am always up-to-date on the latest CSS
+                                        trends and technologies. I am a creative and problem-solver who enjoys working
+                                        with CSS to bring my ideas to life.</p>
+                        </div>
+                        <div class="ex-web">
+                                <h2 class="check">check out my:</h2>
+                                <a href="https://umais-khan.github.io/job-finder/h3.html"
+                                        target="_blank"><button>Example
+                                                Website</button></a>
+                        </div>
+                </div>
+        </section>
+        <section class="chose-me">
+                <div class="why">
+                        <h1 class="why-chose-me">WHY CHOOSE ME:</h1>
+                        <div class="counter-box">
+                                <p class="counter-label">Projects Done</p>
+                                <p id="number" class="counter-number">0+</p>
+                        </div>
+                        <div class="counter-box">
+                                <p class="counter-label">Satisfied Customers</p>
+                                <p id="numbers" class="counter-number">0+</p>
+                        </div>
+                </div>
+        </section>
+        <section class="customers-remarks">
+                <h1 class="remarks-heading">CUSTOMER REMARKS</h1>
+                <div class="slider-container">
+                        <div class="slider-content active" id="remark1">
+                                <h1 class="customer-1">CUSTOMER 1:</h1>
+                                <p class="remarks-1">"I am absolutely thrilled with the website you created for me! Your
+                                        expertise in HTML
+                                        and CSS truly shines through in the design and functionality of the site. It's
+                                        not just visually appealing, but also user-friendly and responsive across
+                                        devices. Working with you has been a pleasure, and I couldn't have asked for a
+                                        better outcome. Thank you for bringing my vision to life!"</p>
+                        </div>
+                        <div class="slider-content" id="remark2">
+                                <h1 class="customer-1">CUSTOMER 2:</h1>
+                                <p class="remarks-1">"I want to express my gratitude for the outstanding work you've
+                                        done on my project.
+                                        Your mastery of HTML and CSS is evident in every aspect of the work you
+                                        delivered. The attention to detail and the way you captured the essence of what
+                                        I wanted is remarkable. The website you've built not only meets but exceeds my
+                                        expectations. It's a true testament to your skills and dedication. I'm beyond
+                                        satisfied and excited to showcase this to my audience."</p>
+                        </div>
+                        <div class="slider-content" id="remark3">
+                                <h1 class="customer-1">CUSTOMER 3:</h1>
+                                <p class="remarks-1">"Working with you on my HTML and CSS project has been an absolute
+                                        game-changer. Your
+                                        creativity and technical proficiency have translated into a website that's not
+                                        only visually stunning but also fully functional. Your ability to understand my
+                                        requirements and transform them into a digital reality is commendable. I'm
+                                        thoroughly impressed with the final result and can't thank you enough for your
+                                        hard work and commitment. Looking forward to future collaborations!"</p>
+                        </div>
+                        <div class="slider-buttons">
+                                <button class="slider-button" onclick="showPrevious()">Previous</button>
+                                <button class="slider-button" onclick="showNext()">Next</button>
+                        </div>
+                </div>
+        </section>
+        <footer class="footer" id="contact">
+                <h3>Socials:</h3>
+                <div class="socials">
+
+                        <a href="https://wa.me/923137112571" target="_blank"><i class="fa-brands fa-square-whatsapp"
+                                        style="color: #25d366;"></i>WHATSAPP</a>
+                        <a href="https://instagram.com/_umais_khan_?igshid=NGExMmI2YTkyZg==" target="_blank"><i
+                                        class="fa-brands fa-square-instagram" style="color: #ee7c8f;"></i>INSTAGRAM</a>
+                        <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank"><i class="fa-brands fa-square-facebook"
+                                        style="color: #4267b2;"></i> FACEBOOK</a>
+                </div>
+
+        </footer>
+        <div class="copyright">
+                <span>©2023 Your Company Name. All Rights Reserved.
+                </span>
+                <span> | Privacy Policy | Terms of Use</span>
+        </div>
+
+
+        <script>
+                var counter1 = 0;
+                var timer1 = setInterval(function () {
+                        counter1++;
+                        if (counter1 > 149) {
+                                clearInterval(timer1);
+                        }
+                        document.getElementById("number").innerHTML = counter1 + "+";
+                }, 10);
+
+                var counter2 = 0;
+                var timer2 = setInterval(function () {
+                        counter2++;
+                        if (counter2 > 99) {
+                                clearInterval(timer2);
+                        }
+                        document.getElementById("numbers").innerHTML = counter2 + "+";
+                }, 10);
+                let currentRemark = 1;
+                const totalRemarks = 3;
+
+                function showNext() {
+                        const currentContent = document.getElementById(`remark${currentRemark}`);
+                        currentContent.classList.remove('active');
+
+                        currentRemark = (currentRemark % totalRemarks) + 1;
+
+                        const newContent = document.getElementById(`remark${currentRemark}`);
+                        newContent.classList.add('active');
+                }
+
+                function showPrevious() {
+                        const currentContent = document.getElementById(`remark${currentRemark}`);
+                        currentContent.classList.remove('active');
+
+                        currentRemark = (currentRemark - 2 + totalRemarks) % totalRemarks + 1;
+
+                        const newContent = document.getElementById(`remark${currentRemark}`);
+                        newContent.classList.add('active');
+                }
+
+        </script>
+
+</body>
+
+</html>
